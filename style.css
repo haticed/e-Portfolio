@@ -17,14 +17,14 @@ a:hover{
 header{
     font-size: 20px;
     margin: 0px;
-    padding: 10px;
-    height: 200px;
-    font-family:cursive;
+    padding: 0px;
+    height: 100px;
+    font-style: italic;
     text-align:center;
     background-position: center;
-    background-size: 160%;
+    background-size: 10%;
     background-repeat: no-repeat;
-   
+    background-color: black;
 }
 
 header a{
@@ -35,15 +35,15 @@ header a{
 }
 
 .avatar a{
-    background-image: url(//avataaars.png);
+    background-image: url(/avataaars.png);
     display: inline-block;
     background-size: 90px;
     background-repeat: no-repeat;
-    height: 60px;
+    height: 50px;
     display: inline-block;
     position: relative;
     right: -20px;
-    width: 110px ;
+    width: 100px ;
     padding: 0px 0px 20px 10px;
     margin: 0px;
     border-radius: 200px;   
@@ -59,7 +59,7 @@ nav>ul>li{
 
 }
 /* FEATURES */
-.feature{
+section{
     padding: 30px 20px 20px 20px;
     background-color: white;
     color: gray;
@@ -68,7 +68,7 @@ nav>ul>li{
     flex-wrap: wrap;
     
 }
-.feature>figure{
+figure{
     margin: auto;
     width: 200px;
     text-align: center;
@@ -76,19 +76,19 @@ nav>ul>li{
     text-transform: uppercase;
     font-size: 15px;
 }
-.feature>figure>img{
+figure>img{
     border-radius: 50px;
-    border: 1px solid white;
-    width: 200px;
+    border: 2px solid white;
+    width: 400px;
     box-shadow:rgb(83, 81, 81) 0px 0px 10px;  
 
 }
 
 footer{
    margin-bottom: 0px;
-   background-color: rgb(226, 223, 223); 
+   background-color: black; 
    padding: 0px;
-   color: gray;
+   color: white;
    font-size: 20px;
 }
 .address p{
