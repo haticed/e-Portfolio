@@ -1,5 +1,4 @@
 # e-Portfolio
 only HTML & CSS used
 
-
-htHtps://haticed.github.io/e-Portfolio/
+https://haticed.github.io/e-Portfolio/
