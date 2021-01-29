@@ -59,29 +59,40 @@ nav>ul>li{
 
 }
 /* FEATURES */
-section{
-    padding: 30px 20px 20px 20px;
-    background-color: white;
-    color: gray;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
+.works{
+    display: grid;
+    grid-template-columns: repeat (2);
+    grid-template-rows: repeat(1 );
+    grid-gap: 40px;
 }
-figure{
+/*figure{
+   
     margin: auto;
     width: 200px;
     text-align: center;
     margin: 10px; 
     text-transform: uppercase;
     font-size: 15px;
-}
-figure>img{
-    border-radius: 50px;
+}*/
+.works>img{
+    border-radius: 150px;
     border: 2px solid white;
     width: 400px;
-    box-shadow:rgb(83, 81, 81) 0px 0px 10px;  
+    box-shadow:rgb(83, 81, 81) 10px 10px 10px;  
+    
 
+}
+.works>work--1{
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+.works>work--2{
+    grid-column-start: 3;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 9;
 }
 
 footer{
