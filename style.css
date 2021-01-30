@@ -10,7 +10,7 @@ header {
     padding: 0px 0px 0px 0px;
     height: 120px;
     background-size: 20%;
-    background-color: black;
+    background-color: grey;
 }
 .page>a{
     text-align: center;
@@ -148,113 +148,22 @@ header {
 
 
 
-/**{
-    list-style: none;
-    
-}
-
-body{
-    background-color: rgb(224, 16, 16);
-    font-family: cursive;
-    margin: 0px;
-    padding: 0px;
-    
-}
-/* HEADER */
-/*a:hover{
-    text-decoration: underline;
-}
-header{
-    font-size: 20px;
-    margin: 0px;
-    padding: 0px;
-    height: 100px;
-    font-style: italic;
-    text-align:center;
-    background-position: center;
-    background-size: 10%;
-    background-repeat: no-repeat;
-    background-color: black;
-}
-
-header a{
-    color:white;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 40px;
-}
-
-.avatar a{
-    background-image: url(https://github.com/haticed/e-Portfolio/blob/master/avataaars.png);
-    display: inline-block;
-    background-size: 90px;
-    background-repeat: no-repeat;
-    height: 50px;
-    display: inline-block;
-    
-    right: -20px;
-    width: 100px ;
-    padding: 0px 0px 20px 10px;
-    margin: 0px;
-    border-radius: 200px;   
-}
- nav>ul { 
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-nav>ul>li{ 
-    display: inline-block; 
-    margin-right: 20px;
-
-}
-/* FEATURES */
-/*.works{
-    display: grid;
-    grid-template-columns: repeat (2);
-    grid-template-rows: repeat(1 );
-    grid-gap: 40px;
-}
-/*figure{
-   
-    margin: auto;
-    width: 200px;
-    text-align: center;
-    margin: 10px; 
-    text-transform: uppercase;
-    font-size: 15px;
-}*/
-/*.works>img{
-    border-radius: 150px;
-    border: 2px solid white;
-    width: 400px;
-    box-shadow:rgb(83, 81, 81) 10px 10px 10px;  
-    
-
-}
-.works>{
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 9;
-}
-.works>work--2{
-    grid-column-start: 3;
-    grid-column-end: 9;
-    grid-row-start: 3;
-    grid-row-end: 9;
-}
 
 footer{
-   margin-bottom: 0px;
-   background-color: black; 
-   padding: 0px;
-   color: white;
-   font-size: 20px;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 120px;
+    background-size: 20%;
+    background-color: grey;
 }
 .address p{
-  margin: 0px;
-  padding-left: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+	color:white;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height: 2;
 }
 .media{
     margin: 0px;
@@ -269,7 +178,7 @@ footer{
     margin: 10px;
 }
 .media>ul>li{
-    color: rgb(117, 110, 110);
+    color: rgb(252, 247, 247);
     font-size: 30px;
     height: 60px;
     width: 60px;
