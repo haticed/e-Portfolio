@@ -90,11 +90,7 @@ header {
 .img1 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), 
     url(peace.png);
-    
-    
-   
-   
-    
+
 }
 
 .img2 {
@@ -146,13 +142,13 @@ footer{
     background-size: 20%;
     background-color: grey;
 }
-.address p{
+.address>p{
     font-family: 'Source Sans Pro', sans-serif;
-	color:white;
 	padding: 4px 5px;
 	margin: 0 30px;
 	font-size: 14px;
-	line-height: 2;
+    line-height: 2;
+    color: white;
 }
 .media{
     margin: 0px;
