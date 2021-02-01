@@ -119,6 +119,11 @@ header {
     url(animation.jpg);
    background-size: 330px 330px;
 }
+.img6 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), 
+    url(drop.jpeg);
+   background-size: 330px 330px;
+}
 
 .info {
 	position: absolute;
