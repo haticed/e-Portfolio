@@ -23,8 +23,6 @@ header {
   
 
 }
-
-
 .avatar a{
     background-image: url(avataaars.png);
     display: inline-block;
@@ -90,6 +88,7 @@ header {
 .img1 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), 
     url(peace.png);
+    
 
 }
 
@@ -107,7 +106,18 @@ header {
 
 .img4 {
 	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), 
-	url(Side.jpg);
+    url(Side.jpg);
+    background-size: 328px 328px;
+}
+.img5 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), 
+    url(form.png);
+   background-size: 330px 330px;
+}
+.img6 {
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), 
+    url(form.png);
+   background-size: 330px 330px;
 }
 
 .info {
